@@ -29,11 +29,11 @@ platform:
 capabilities:
   baselineCapabilitySet: None # lightweight
   additionalEnabledCapabilities: 
-  - CSISnapshot
   - Console
   - Storage
-  - NodeTuning
+  - CSISnapshot
   - ImageRegistry
+  - NodeTuning
   - marketplace
   - OperatorLifecycleManager
   

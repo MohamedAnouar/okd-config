@@ -6,6 +6,7 @@ metadata:
   ## The name for the cluster
   name: okd
 ###### dns should be : *.okd.example.local
+### doc : https://docs.openshift.com/container-platform/4.16/installing/installing_bare_metal/installing-bare-metal-network-customizations.html#installation-dns-user-infra_installing-bare-metal-network-customizations
 
 compute:
 - name: worker
